@@ -65,7 +65,7 @@
 	position: relative;
 	vertical-align: top;
 	font-size: 0.94em;
-	width: 188px;
+	width: 178px;
 	vertical-align: top;
 }
 
@@ -78,8 +78,27 @@
 }
 
 .sw-input-wrap{
-	width: 100%;
+	width:320px;
 	border:1px solid #ddd;
+	padding: 7px;
+	background: #fff;
 }
 
-.sw-input
+.search-input-itself{
+	height: 100%;
+	width: 100%;
+	font-size: 0.94em;
+	color: #bbb;
+}
+
+.search-submit{
+	right: 0;
+	top: 2px;
+	height: 100%;
+	width: 50px;
+	background: none;
+	border: none;
+	font-size: 1.2em;
+	color: #565656;
+	padding: 2px;
+}
