@@ -15,6 +15,7 @@
 .site-name{
 	top: 0;
 	left: 0;
+	padding-top: 75px;
 }
 
 .site-phone-itself{
@@ -22,12 +23,12 @@
 }
 
 .login-open{
-	color: #FDFDFD;
+	color: #fdfdfd;
 }
 
 .cart{
 	margin-left: 3.529412%;
-	color: #FDFDFD;
+	color: #fdfdfd;
 }
 
 
@@ -46,7 +47,7 @@
 /* header  */
 
 .main-head{
-	padding: 15px 0 15px 170px;
+	padding: 15px 0 0px 170px;
 }
 
 .header{
@@ -101,4 +102,40 @@
 	font-size: 1.2em;
 	color: #565656;
 	padding: 2px;
+}
+
+.search-submit:hover{
+	opacity: 0.7;
+}
+
+.top-menu-wrap{
+	padding-top: 22px;
+}
+
+.top-menu-nav-items{
+	font-size: 1.25em;
+	text-transform: uppercase;
+	
+}
+
+.top-menu-nav-items a{
+	display: block;
+	padding: 0.75em;
+	background: #0d0d0f;
+	margin-right: 2px;
+	color: #fff;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.top-menu-nav-items a:before{
+	float: right;
+	margin-left: 5px;
+}
+
+.top-menu-nav-items a.active, .top-menu-nav-items a:hover, .top-menu-nav-items a:active{
+	background: #f99222;
 }
