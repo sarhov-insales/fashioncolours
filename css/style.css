@@ -3,13 +3,13 @@
 .pre-header-outer{
 	width: 100%;
 	background: #4b4b4b;
-	font-family: sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
 	
 }
 
 .pre-header-inner{
 	padding: 15px 0 15px  170px ;
-	font-size: 0.75em;
+	font-size:0.94em;
 }
 
 .site-name{
@@ -35,6 +35,7 @@
 .site-name{
 	width: 150px;
 	background: #000;
+	font-family: 'PT Sans Narrow', sans-serif;
 	margin: 0;
 }
 
@@ -51,7 +52,8 @@
 }
 
 .header{
- background: #545a66;
+	 background: #545a66;
+	 font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .ih-info-block{
@@ -177,6 +179,20 @@
 .cat-news-block-itself img, .cat-news-block-itself a{
 	display: block;
 	margin: 0 auto;
+	width: 100%;
+}
+
+/*mp products*/
+
+.mp-products-outer{
+	background: #f2f2f2;
+	padding:1.88em
+}
+
+.mp-products-title{
+	font-size:2.31em ;
+	color: #040404;
+	margin: 0;
 }
 
 
