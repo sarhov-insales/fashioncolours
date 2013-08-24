@@ -96,7 +96,7 @@
 	right: 0;
 	top: 2px;
 	height: 100%;
-	width: 50px;
+	width: 40px;
 	background: none;
 	border: none;
 	font-size: 1.2em;
@@ -133,9 +133,47 @@
 
 .top-menu-nav-items a:before{
 	float: right;
-	margin-left: 5px;
+	margin-left: 0.53em;
 }
 
 .top-menu-nav-items a.active, .top-menu-nav-items a:hover, .top-menu-nav-items a:active{
 	background: #f99222;
 }
+
+/*slider*/
+
+
+.slider-outer{
+	width: 100%;
+	height: 350px;
+	background: #ff0;
+}
+
+/*cat-news-block*/
+
+.cat-news-block-outer{
+	background: #fff;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
+.cat-news-block{
+	height: 100%;
+	position:relative;
+	top: -20px;
+	padding: 15px 0.9765625%;
+	background: #fff ;
+	-webkit-box-shadow: -16px -7px 11px -22px #000000, 13px 0 11px -18px #000000;
+	-moz-box-shadow:-16px -7px 11px -22px #000000, 13px 0 11px -18px #000000;
+	box-shadow: -16px -7px 11px -22px #000000, 13px 0 11px -18px #000000;
+}
+
+.cat-news-block-itself{
+	width: 32.34789%;
+	height: 250px;
+	background: #333;
+	margin: 5px 0.4882812%;
+}
+
+
+
