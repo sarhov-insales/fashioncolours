@@ -170,9 +170,13 @@
 
 .cat-news-block-itself{
 	width: 32.34789%;
-	height: 250px;
 	background: #333;
 	margin: 5px 0.4882812%;
+}
+
+.cat-news-block-itself img, .cat-news-block-itself a{
+	display: block;
+	margin: 0 auto;
 }
 
 
