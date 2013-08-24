@@ -54,11 +54,6 @@ display: table; /* 2 */
   margin:0 auto;
 }
 
-body{
-  font-size: 100%;
-  font-family:Century Gothic, sans-serif;
-    color: #bbb;
-}
 
 
 a{
@@ -169,47 +164,9 @@ html {
     -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-/**
- * Remove default margin.
- */
 
 body {
     margin: 0;
-}
-
-/* ==========================================================================
-   Links
-   ========================================================================== */
-
-/**
- * Address `outline` inconsistency between Chrome and other browsers.
- */
-
-a:focus {
-    outline: thin dotted;
-}
-
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
-
-a:active,
-a:hover {
-    outline: 0;
-}
-
-/* ==========================================================================
-   Typography
-   ========================================================================== */
-
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari 5, and Chrome.
- */
-
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
 }
 
 /**
@@ -219,10 +176,6 @@ h1 {
 abbr[title] {
     border-bottom: 1px dotted;
 }
-
-/**
- * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
- */
 
 b,
 strong {
@@ -279,10 +232,6 @@ pre {
 /**
  * Set consistent quote types.
  */
-
-q {
-    quotes: "\201C" "\201D" "\2018" "\2019";
-}
 
 /**
  * Address inconsistent and variable font size in all browsers.
@@ -348,45 +297,13 @@ figure {
    Forms
    ========================================================================== */
 
-/**
- * Define consistent border, margin, and padding.
- */
-
-fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em;
-}
-
-/**
- * 1. Correct `color` not being inherited in IE 8/9.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
 
 legend {
     border: 0; /* 1 */
     padding: 0; /* 2 */
 }
 
-/**
- * 1. Correct font family not being inherited in all browsers.
- * 2. Correct font size not being inherited in all browsers.
- * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
- */
-
-button,
-input,
-select,
-textarea {
-    font-family: inherit; /* 1 */
-    font-size: 100%; /* 2 */
-    margin: 0; /* 3 */
-}
-
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
+/
 
 button,
 input {
@@ -484,6 +401,9 @@ textarea {
     vertical-align: top; /* 2 */
 }
 
+
+
+
 /* ==========================================================================
    Tables
    ========================================================================== */
@@ -496,3 +416,6 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+
+html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}body{line-height:1;color:black;background:white;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}abbr,acronym{border:0;}
