@@ -30,11 +30,6 @@ body{
 	font-size:0.94em;
 }
 
-.site-name{
-	top: 0;
-	left: 0;
-	padding-top: 75px;
-}
 
 .site-phone-itself{
 	color: #A9A9A9;
@@ -55,11 +50,15 @@ body{
 	background: #000;
 	font-family: 'PT Sans Narrow', sans-serif;
 	margin: 0;
+	top: 0;
+	left: 0;
+	padding-top: 95px;
+	padding-bottom: 20px;
 }
+
 
 .site-name-url{
 	display: block;
-	padding-top: 30px;
 	text-align: center;
 }
 
@@ -190,7 +189,6 @@ body{
 
 .cat-news-block-itself{
 	width: 32.34789%;
-	background: #333;
 	margin: 5px 0.4882812%;
 }
 
@@ -198,6 +196,13 @@ body{
 	display: block;
 	margin: 0 auto;
 	width: 100%;
+}
+
+.cat-news-block-description{
+	font-size: 0.88em;
+	color: #040404;
+	text-align: center;
+	padding: 0.71em;
 }
 
 /*mp products*/
@@ -291,4 +296,37 @@ body{
 .btn-more:hover{
 	background: rgba(0,0,0,1);
 	color: #fff;
+}
+
+
+/*site-description*/
+
+.site-description-outer{
+	background: #fff;
+	padding: 2.5em;
+}
+
+.site-description{
+	font-size: 0.75em;
+	line-height: 1.5;
+}
+
+/*pre foor*/
+
+.pre-foot-outer{
+	padding: 2.5em;
+	background: #f2f2f2;
+}
+
+.social-btns{
+	width: 40%;
+}
+
+.deals-wrap{
+	background: #fff;
+	padding: 0.94em ;
+}
+
+.deals-wrap p{
+	padding: ;
 }
