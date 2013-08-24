@@ -1,3 +1,5 @@
+/* pre-header */
+
 .pre-header-outer{
 	width: 100%;
 	background: #4b4b4b;
@@ -16,21 +18,18 @@
 }
 
 .site-phone-itself{
-	color: #aaaaaa;
+	color: #A9A9A9;
 }
 
 .login-open{
-	color: #dadada;
+	color: #FDFDFD;
 }
 
 .cart{
 	margin-left: 3.529412%;
-	color: #dadada;
+	color: #FDFDFD;
 }
 
-.header{
-	padding-left:150px;
-}
 
 .site-name{
 	width: 150px;
@@ -41,4 +40,15 @@
 .site-name-url{
 	display: block;
 	padding-top: 30px;
+	text-align: center;
+}
+
+/* header  */
+
+.main-head{
+	padding-left: 170px;
+}
+
+.header{
+ background: #545a66;
 }
