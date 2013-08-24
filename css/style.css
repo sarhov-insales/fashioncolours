@@ -92,6 +92,16 @@ body{
 	font-size: 0.94em;
 	width: 178px;
 	vertical-align: top;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.ih-info-block a:hover{
+	text-shadow: 0 0 12px #000;
+	color: #f99222;
 }
 
 .ih-info-block a:before{
@@ -254,7 +264,7 @@ body{
 }
 
 .mp-news-block-itself{
-	width:32.453061%;
+	width:32%;
 	margin-left: 1.22449%;
 	border-bottom: 1px solid #fcc386;
 	border-top: 1px solid #fcc386;
@@ -273,8 +283,6 @@ body{
 	bottom: 10%;
 	left: 0;
 }
-
-
 
 .btn-more{
 	font-size:1em;
@@ -298,7 +306,6 @@ body{
 	color: #fff;
 }
 
-
 /*site-description*/
 
 .site-description-outer{
@@ -319,14 +326,102 @@ body{
 }
 
 .social-btns{
-	width: 40%;
+	width: 20%;
 }
+
+.social-btns-title{
+	font-size: 0.88em;
+	color: #040404;
+	text-transform: uppercase;
+	margin-bottom: 1.13em;
+}
+
+.btn-social{
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	padding: 9px 0 0 0;
+	background: #272727;
+	display: inline-block;
+	font-size: 1.1em;
+	margin-right: 0.25em;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-social:hover{
+	background: #f99222;
+	color: #fff;
+}
+
 
 .deals-wrap{
 	background: #fff;
-	padding: 0.94em ;
+	padding: 0.94em  0.94em 0 .94em;
+	width: 80%;
+	position: relative;
+	top: 6px;
+	-webkit-box-shadow: 0 0 4px #e8e8e8;
+	-moz-box-shadow: 0 0 4px #e8e8e8;
+	box-shadow: 0 0 4px #e8e8e8;
 }
 
 .deals-wrap p{
-	padding: ;
+	padding:0.7em ;
+	font-size: 0.81em;
+	color: #040404;
+	overflow: hidden;
+	position: relative;
 }
+
+.subscribe{
+	font-size: 14px;
+	background: #292929;
+}
+
+.vaucher{
+	padding:5px 0 0 5px ;
+	background: #f99222;
+	position: relative;
+	left: -25px;
+	top: -21px;
+	color: #fff;
+	height:46px;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-size: 13px;
+	-webkit-box-shadow: -2.8px 2.9px 1.7px -2.3px #333333;
+	-moz-box-shadow: -2.8px 2.9px 1.7px -2.3px #333333;
+	box-shadow: -2.8px 2.9px 1.7px -2.3px #333333;
+}
+
+.vaucher:before{
+	content: '';
+	bottom: -10px;
+	left: 0;
+	display: block;
+	position: absolute;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #975b19 #975b19 transparent transparent; 
+}
+
+.vaucher:after{
+	content: '';
+	border-style:solid;
+	border-width: 23px;
+	position: absolute;
+	right: -46px;
+	top: 0px;
+	border-color:transparent transparent transparent #f99222;
+}
+
+.vaucher-size{
+	font-weight: bold;
+	font-size:2.54em;
+	vertical-align: middle;
+}
+
