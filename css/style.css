@@ -46,9 +46,40 @@
 /* header  */
 
 .main-head{
-	padding-left: 170px;
+	padding: 15px 0 15px 170px;
 }
 
 .header{
  background: #545a66;
 }
+
+.ih-info-block{
+	text-transform: uppercase;
+}
+
+.ih-info-block a{
+	display: block;
+	float: left;
+	color: #ddd;
+	line-height: 1;
+	position: relative;
+	vertical-align: top;
+	font-size: 0.94em;
+	width: 188px;
+	vertical-align: top;
+}
+
+.ih-info-block a:before{
+	font-size: 2em;
+	vertical-align: top;
+	margin-right: 10px;
+	float: left;
+	vertical-align: top;
+}
+
+.sw-input-wrap{
+	width: 100%;
+	border:1px solid #ddd;
+}
+
+.sw-input

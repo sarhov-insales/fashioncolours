@@ -56,7 +56,7 @@ display: table; /* 2 */
 
 body{
   font-size: 100%;
-  font-family: 'Roboto';
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 
@@ -64,6 +64,17 @@ a{
   text-decoration: none;
 }
 
+input{
+  background:none;
+  padding: 0;
+  margin: 0;
+  border:0;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+
+    -webkit-appearance: none;
+}
  /*  a:link {color:#066B8C;}     unvisited link */
 /* a:visited {color:#066B8C;}   visited link */
  /* a:hover {color:#066B8C;}  mouse over link */
