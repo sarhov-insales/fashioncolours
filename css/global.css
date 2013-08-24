@@ -43,16 +43,7 @@ display: table; /* 2 */
   clear: right;
 }
 
-.gl-outer{
-  width: 100%;
-}
 
-.gl-inner{
-  width: 100%;
-  max-width:1024px;
-  padding: 0 12px;
-  margin:0 auto;
-}
 
 
 
