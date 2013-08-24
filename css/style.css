@@ -1,0 +1,44 @@
+.pre-header-outer{
+	width: 100%;
+	background: #4b4b4b;
+	font-family: sans-serif;
+	
+}
+
+.pre-header-inner{
+	padding: 15px 0 15px  170px ;
+	font-size: 0.75em;
+}
+
+.site-name{
+	top: 0;
+	left: 0;
+}
+
+.site-phone-itself{
+	color: #aaaaaa;
+}
+
+.login-open{
+	color: #dadada;
+}
+
+.cart{
+	margin-left: 3.529412%;
+	color: #dadada;
+}
+
+.header{
+	padding-left:150px;
+}
+
+.site-name{
+	width: 150px;
+	background: #000;
+	margin: 0;
+}
+
+.site-name-url{
+	display: block;
+	padding-top: 30px;
+}

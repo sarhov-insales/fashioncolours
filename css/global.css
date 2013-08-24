@@ -27,11 +27,46 @@ display: table; /* 2 */
   position: relative;
 }
 
-.aps{
+.abs{
   position: absolute;
 }
 
+.cb{
+  clear: both;
+}
 
+.cl{
+  clear: left;
+}
+
+.cr{
+  clear: right;
+}
+
+.gl-outer{
+  width: 100%;
+}
+
+.gl-inner{
+  width: 100%;
+  max-width:1024px;
+  padding: 0 12px;
+  margin:0 auto;
+}
+
+body{
+  font-size: 100%;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+ /*  a:link {color:#066B8C;}     unvisited link */
+/* a:visited {color:#066B8C;}   visited link */
+ /* a:hover {color:#066B8C;}  mouse over link */
+/* a:active {color:#066B8C;}   selected link */ 
 
 
 
