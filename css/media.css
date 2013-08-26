@@ -42,6 +42,10 @@
 		font-size: 100%;
 	}
 
+	.site-name{
+		padding-top: 55px;
+	}
+
 	.mobile-nav{
 		display: block;
 	}
@@ -50,7 +54,7 @@
 		display: none;
 	}
 		
-	.ih-info-block{
+	.search-wrap{
 		display: none;
 	}
 
@@ -82,10 +86,40 @@
    
 }
 
+@media screen and (max-width:700px){
+	.ih-info-block{
+		font-size: 80%;
+	}
+
+	.site-name{
+		padding-top: 45px;
+	}
+}
+
 
 @media screen and (max-width:600px) {
     .deals-wrap, .mp-products-outer, .cat-news-block-outer, .mp-news-block-outer{
     	font-size: 80%;
+    }
+
+    .main-head{
+    	padding-left: 120px;
+    }
+
+    .site-name{
+    	padding-top: 70px;
+    }
+
+    .site-name-url{
+    	padding: 0 10px;
+    }
+
+    .ih-info-block{
+    	font-size: 70%;
+    }
+
+    .site-name{
+    	width: 100px;
     }
 }
 
@@ -96,6 +130,29 @@
 		font-size: 120%;
 	}
 
+	.pre-header-inner{
+		padding: 0 0 0 100px;
+		font-size: 140%;
+	}
+
+	.pre-header-box{
+		padding: 10px;
+		display: block;
+		border-right: 1px solid #ddd;
+		margin: 0;
+		color: #fff;
+		float: left;
+	}
+
+	.login-text, .ih-info-block, .cart-info span{
+		display: none;
+	}
+
+	.site-name{
+		padding-top: 34px;
+	}
+
+	
 	.mp-news-block-itself, .cat-news-block-itself {
 		width: 100%;
 		margin: 0;
@@ -195,7 +252,17 @@ background: none repeat scroll 0 0 #F99222;
     	font-size: 1em;
     }
 
- 	
+    .site-phone-text{
+    	display: none;
+    }
 
+    .site-phone-itself{
+    	color: #fff;
+    }
+
+    .pre-header-box{
+    	width: 33%;
+    	text-align: center;
+    }
 
 }
