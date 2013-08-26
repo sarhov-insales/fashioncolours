@@ -1,0 +1,201 @@
+
+@media screen and (max-width:1000px) {
+    .ih-info-block{
+    	float: none;
+    	width: 100%;
+    }
+
+    .search-wrap{
+    	float: left;
+    	width: 100%;
+    }
+
+    .sw-input-wrap{
+    	width: 80%;
+    }
+
+    .gl-inner{
+    	max-width: 900px;
+    }
+
+    .header.gl-outer{
+    	font-size: 80%;
+    }
+
+    .cat-news-block-outer, .mp-products-outer, .mp-news-block-outer{
+    	font-size: 90%;
+    }
+
+    .deals-wrap{
+    	width: 70%;
+    }
+
+    .social-btns{
+    	width: 25%;
+    }	
+}
+
+
+@media screen and (max-width:800px) {
+
+	.header.gl-outer{
+		font-size: 100%;
+	}
+
+	.mobile-nav{
+		display: block;
+	}
+
+	.top-menu-nav{
+		display: none;
+	}
+		
+	.ih-info-block{
+		display: none;
+	}
+
+	.deals-wrap{
+		width: 100%;
+	}
+
+	.social-btns{
+		width: 100%;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #ddd;
+		margin-bottom: 20px;
+	}
+
+	.main-foot-block{
+		width: 50%;
+		padding-left: 0;
+		font-size: 110%;
+		padding-right: 1.25em;
+	}
+
+	.main-foot-title{
+		padding-bottom: 1.25em;
+		margin-bottom: 1.25em;
+		border-bottom: 1px solid #ccc;
+	}
+
+
+   
+}
+
+
+@media screen and (max-width:600px) {
+    .deals-wrap, .mp-products-outer, .cat-news-block-outer, .mp-news-block-outer{
+    	font-size: 80%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+
+	.mp-news-block-outer, .cat-news-block-outer{
+		font-size: 120%;
+	}
+
+	.mp-news-block-itself, .cat-news-block-itself {
+		width: 100%;
+		margin: 0;
+	}
+
+    .deals-wrap {
+    	font-size: 90%;
+    }
+
+    .subscribe {
+    	margin-bottom: 10px;
+    	margin-top: 10px;
+    	width: 100%;
+    	text-align: center;
+    }
+
+    .main-foot-outer{
+    	padding: 1em;
+    }
+
+    .main-foot-block{
+    	width: 100%;
+    	font-size: 120%;
+    	padding-right: 0;
+    	  box-shadow: -7px 30px 17px -24px #000000;
+		  padding: 10px !important;
+		background: -moz-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* FF3.6+ */
+	background: -webkit-gradient(linear, 90deg, color-stop(0%, #ebebeb), color-stop(100%, #ffffff));/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* Opera 11.10+ */
+	background: -ms-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#ffffff', GradientType='0'); /* for IE */
+	background: linear-gradient(0deg, #ebebeb 0%, #ffffff 100%);/* W3C */
+    }
+
+    .main-foot-title{
+    	padding-bottom: 10px;
+    	margin-bottom: 0px;
+    }
+
+    .main-foot-title{
+background: none repeat scroll 0 0 #F99222;
+    box-shadow: -2.8px 2.9px 1.7px -2.3px #333333;
+    color: #FFFFFF;
+    font-size: 13px;
+    height: 46px;
+    left: -16px;
+    padding: 16px 9px 0 15px;
+    position: relative;
+    text-transform: uppercase;
+    top: -16px;
+    vertical-align: middle;
+}
+
+   .main-foot-nav-item {
+    background: none repeat scroll 0 0 #040404;
+    border-bottom: 1px solid #221B1B;
+    border-top: 1px solid #000000;
+    color: #CCCCCC;
+    font-size: 0.75em;
+    margin-bottom: 0;
+    padding: 7px;
+    text-align: center;
+    text-shadow: 0 0 2px #525252;
+    text-transform: capitalize;
+	}
+
+	.main-foot-nav-item:active{
+	background: -moz-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* FF3.6+ */
+	background: -webkit-gradient(linear, 90deg, color-stop(0%, #0a0a09), color-stop(100%, #090909));/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* Opera 11.10+ */
+	background: -ms-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a0a09', endColorstr='#090909', GradientType='0'); /* for IE */
+	background: linear-gradient(0deg, #0a0a09 0%, #090909 100%);/* W3C */
+	}
+
+	.post-foot-block {
+ 		border-bottom: 1px solid #DCDCDC;
+ 		width: 100%;
+ 		padding: 1em;
+ 		text-align: center;
+ 		font-size: 1em;
+ 	}
+
+
+}
+
+
+@media screen and (max-width:400px) {
+    .subscribe {
+    	margin: 0;
+    }
+
+    .deals-wrap p{
+    	width: 100%;
+    	font-size: 1em;
+    }
+
+ 	
+
+
+}
