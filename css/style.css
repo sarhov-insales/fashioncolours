@@ -217,7 +217,7 @@ body{
     border-left: 5px solid #040404;
 }
 
-.top-menu-nav-sub .top-menu-nav-items:hover > .top-nav-menu-open{
+.top-menu-nav-sub > .top-menu-nav-items:hover > .top-nav-menu-open{
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
