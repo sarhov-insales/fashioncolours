@@ -103,16 +103,21 @@
         left: 0 !important;
     }
 
-    .top-menu-nav-sub .top-menu-nav-items{
+    .top-menu-nav-sub > .top-menu-nav-items{
         padding-left: 20px;
     }
 
-    .top-menu-nav-sub .top-menu-nav-items:hover >.top-nav-menu-open{
+    .top-menu-nav-sub .top-menu-nav-items:hover > .top-nav-menu-open{
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         -o-transform: rotate(90deg);
         transform: rotate(90deg);
+    }
+
+    .top-menu-nav-sub .top-nav-menu-open{
+        position: relative;
+        top: 7px;
     }
 
   
