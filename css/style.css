@@ -191,6 +191,7 @@ body{
 	-o-transform: rotate(90deg);
 	transform: rotate(90deg);
 	line-height: 1.5;
+	cursor: pointer;
 }
 
 .top-menu-nav-items:hover > .top-nav-menu-open{
@@ -199,6 +200,7 @@ body{
 	-ms-transform: rotate(0deg);
 	-o-transform: rotate(0deg);
 	transform: rotate(0deg);
+	color: #ddd;
 }
 
 .top-menu-nav-items.active, .top-menu-nav-items:hover, .top-menu-nav-items a:active{
