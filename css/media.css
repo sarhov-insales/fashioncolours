@@ -99,13 +99,12 @@
         position: relative;
         display: none;
         width: 100%;
-        top: 0 !mportant;
-        left: 0 !mportant;
+        top: 0 !important;
+        left: 0 !important;
     }
 
-    .top-menu-nav > .top-menu-nav-items:hover > .top-menu-nav-sub{
-        top: 0;
-    }
+  
+   
 }
 
 
