@@ -73,7 +73,7 @@
     }
 
     .top-menu-nav-items a{
-        width: 82%;
+        width: 82% !important;
     }
 
     .top-menu-nav-items:hover  .top-nav-menu-open{
@@ -116,11 +116,8 @@
     }
 
     .top-menu-nav-sub .top-nav-menu-open{
-        position: relative;
-        top: 7px;
+        width: auto;
     }
-
-  
    
 }
 
