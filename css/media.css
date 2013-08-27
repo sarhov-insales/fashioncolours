@@ -103,7 +103,7 @@
         left: 0 !important;
     }
 
-    .top-menu-nav-sub > .top-menu-nav-items{
+    .top-menu-nav-sub  .top-menu-nav-items a{
         padding-left: 20px;
     }
 
