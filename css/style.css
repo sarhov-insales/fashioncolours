@@ -630,4 +630,39 @@ body{
 	display: none;
 	height: 50px;
 	background: #000;
+	cursor: pointer;
+	padding-left: 50px;
+}
+
+.mobile-nav:before {
+    color: #FFFFFF;
+    float: left;
+    font-size: 32px;
+    padding: 8px 10px 0;
+    position: absolute;
+    left: 0;
+    z-index: 4;
+}
+
+
+.mobile-nav-text, 
+.mobile-nav-text-item{
+	 position:absolute;
+	text-align: center;
+	width: 100%;
+	background: #000;
+	height: 100%;
+	left: 0;
+	top: 0;
+	font-size: 1.3em;
+	color: #fff;
+	padding-top: 10px;
+}
+
+.mobile-nav-text{
+	z-index: 3;
+}
+
+.mobile-nav-text-item{
+	z-index: 2;
 }
