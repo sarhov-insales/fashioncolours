@@ -205,9 +205,22 @@ body{
     background: none repeat scroll 0 0 #333333;
     font-size: 70%;
     position: absolute;
-    top: 100%;
+    top: 200%;
     width: 200%;
     z-index: 99;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.top-menu-nav > .top-menu-nav-items:hover > .top-menu-nav-sub{
+	top: 100%;
+	visibility: visible;
+	opacity: 1;
 }
 
 
@@ -230,13 +243,26 @@ body{
 }
 
 .top-menu-nav-sub-sub{
-	right: 100%;
 	top: 0;
 	font-size: 80%;
-	left: 100%;
+	left: 200%;
 	width: 100%;
 	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
 }
+
+.top-menu-nav-sub .top-menu-nav-items:hover > .top-menu-nav-sub-sub{
+	left: 100%;
+	opacity: 1;
+	visibility: visible;
+}
+
 
 
 .top-menu-nav-sub .top-menu-nav-items a{
