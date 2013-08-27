@@ -11,7 +11,7 @@
     }
 
     .sw-input-wrap{
-    	width: 80%;
+    	width: 100%;
     }
 
     .gl-inner{
@@ -29,6 +29,10 @@
 
     .social-btns{
     	width: 25%;
+    }
+
+    .site-name{
+        padding-top: 124px;
     }	
 
     .cat-news-block-outer.gl-outer {
@@ -47,7 +51,7 @@
     .top-menu-nav{
         display: block; /*temp*/
         position: absolute;
-        top: 100%;
+        top: 110%;
         left: 0;
         z-index: 88;
         width: 100%;
@@ -63,7 +67,7 @@
     }
 
     .top-menu-nav-items a{
-        width: 90%;
+        width: 82%;
     }
 
     .top-menu-nav-items:hover  .top-nav-menu-open{
@@ -98,16 +102,8 @@
 		font-size: 100%;
 	}
 
-	.site-name{
-		padding-top: 55px;
-	}
-
 	
 
-	
-	.search-wrap{
-		display: none;
-	}
 
 	.deals-wrap{
 		width: 100%;
@@ -143,7 +139,7 @@
 	}
 
 	.site-name{
-		padding-top: 45px;
+		padding-top: 114px;
 	}
 
     .ei-slider{
@@ -162,11 +158,14 @@
     }
 
     .main-head{
-    	padding-left: 120px;
+    	padding-left: 110px;
+        padding-right: 10px;
     }
 
+
+
     .site-name{
-    	padding-top: 70px;
+    	padding-top: 136px;
     }
 
     .site-name-url{
@@ -234,8 +233,12 @@
 		display: none;
 	}
 
+    .search-wrap{
+        display: none;
+    }
+
 	.site-name{
-		padding-top: 34px;
+		padding-top: 43px;
 	}
 
 	
@@ -355,6 +358,40 @@
         display: none;
     }
 
+    .cat-news-block-outer{
+        margin-top: 10px;
+    }
+
+      .site-name img{
+        display: none;
+    }
+
+    .pre-header-inner{
+        padding-left: 0;
+    }
+
+    .main-head{
+        padding-left: 10px;
+    }
+
+    .site-name a:before{
+        content:'\e1da';
+        color: #fff;
+        display: block;
+    }
+
+    .site-name{
+        padding: 10px;
+        float: left;
+        width: 25%;
+        position: relative;
+        background: none;
+    }
+
+    .pre-header-box{
+        width: 25%;
+    }
+
 }
 
 
@@ -363,6 +400,8 @@
     .mp-news-block-outer, .cat-news-block-outer {
         font-size: 80%;
     }
+
+  
 
 
 
