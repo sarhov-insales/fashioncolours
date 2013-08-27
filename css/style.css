@@ -685,3 +685,55 @@ body{
 .mobile-nav-open-active:before{
 	color: #ddd;
 }
+
+/*  CATEGORY PAGE   */
+
+.pre-content-outer{
+	height:400px ;
+	background: #9c0;
+}
+
+.breadcrumbs{
+	height: 50px;
+	padding-left: 170px;
+	margin-top: 20px;
+}
+
+.breadcrumbs a, .breadcrumbs span{
+	padding:0.5em;
+	color: #23262b;
+	font-size: 0.88em;
+	background: #fff;
+	float: left;
+	margin-right: 0.29em;
+}
+
+.breadcrumbs a:hover{
+	background: #040404;
+	color: #ccc;
+}
+
+.page-title{
+	font-size: 1.88em;
+	text-transform: capitalize;
+	color: #fff;
+}
+
+.main-content{
+	margin-top: -276px;
+	position: relative;
+	height: 800px;  /*temp*/
+	background: #fff;
+}
+
+.main-content-sidebar{
+	width: 18.571429%;
+	background: #333;
+	height:300px ;
+}
+
+.main-content-content{
+	width: 81.428571%;
+	background: #9c0;
+	height: 300px;
+}
