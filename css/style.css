@@ -9,6 +9,7 @@ body{
 
 .gl-outer{
   width: 100%;
+  position: relative;
 }
 
 .gl-inner{
@@ -22,6 +23,7 @@ body{
 	width: 100%;
 	background: #4b4b4b;
 	font-family: 'PT Sans Narrow', sans-serif;
+	z-index: 1;
 	
 }
 
@@ -150,28 +152,38 @@ body{
 .top-menu-nav-items{
 	font-size: 1.25em;
 	text-transform: uppercase;
-	
+	background: #0d0d0f;
+	margin-right: 2px;
 }
 
 .top-menu-nav-items a{
-	display: block;
+	display: inline-block;
 	padding: 0.75em;
-	background: #0d0d0f;
-	margin-right: 2px;
+	
+	
 	color: #fff;
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
 	-ms-transition: all 0.2s;
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
+	float: left;
 }
 
-.top-menu-nav-items a:before{
+.top-nav-menu-open{
 	float: right;
-	margin-left: 0.53em;
+	font-size: 1.65em;
+	color: #fff;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	vertical-align: middle;
+	padding-right: 0.45em;
 }
 
-.top-menu-nav-items a.active, .top-menu-nav-items a:hover, .top-menu-nav-items a:active{
+.top-menu-nav-items.active, .top-menu-nav-items:hover, .top-menu-nav-items a:active{
 	background: #f99222;
 }
 
@@ -237,6 +249,8 @@ body{
 
 .carousel-products-outer{
 	padding: 1.88em 0;
+	 box-shadow: 0 224px 14px -227px #000000;
+	 z-index: 4;
 }
 
 .product-block-title{
@@ -261,6 +275,8 @@ body{
 .mp-news-block-outer{
 	background: #f99222;
 	padding: 1.25em;
+	z-index: 3;
+	 box-shadow: 0 51px 8px -55px #000000;
 }
 
 .mp-news-block-title{
@@ -319,6 +335,8 @@ body{
 .site-description-outer{
 	background: #fff;
 	padding: 2.5em;
+	 box-shadow:0 50px 14px -60px #000000;
+	 z-index: 2;
 }
 
 .site-description{
@@ -331,6 +349,7 @@ body{
 .pre-foot-outer{
 	padding: 2.5em;
 	background: #f2f2f2;
+	z-index: 1;
 }
 
 .social-btns{

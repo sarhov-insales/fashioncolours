@@ -42,6 +42,14 @@
     .carousel-products-outer{
         font-size: 90%;
     }
+
+    .top-menu-nav{
+        display: none;
+    }
+       
+     .mobile-nav{
+        display: block;
+    }
 }
 
 
@@ -55,14 +63,9 @@
 		padding-top: 55px;
 	}
 
-	.mobile-nav{
-		display: block;
-	}
+	
 
-	.top-menu-nav{
-		display: none;
-	}
-		
+	
 	.search-wrap{
 		display: none;
 	}
