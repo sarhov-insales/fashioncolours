@@ -49,12 +49,16 @@
     }
 
     .top-menu-nav{
-        display: block; /*temp*/
+        display: none; /*temp*/
         position: absolute;
         top: 110%;
         left: 0;
         z-index: 88;
         width: 100%;
+    }
+
+    .no-js .top-menu-nav{
+        display: block;
     }
 
     .top-menu-nav-items{
