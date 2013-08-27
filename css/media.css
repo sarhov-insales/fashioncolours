@@ -33,6 +33,15 @@
     .social-btns{
     	width: 25%;
     }	
+
+    .cat-news-block-outer.gl-outer {
+    padding: 20px;
+    }
+
+
+    .carousel-products-outer{
+        font-size: 90%;
+    }
 }
 
 
@@ -94,6 +103,14 @@
 	.site-name{
 		padding-top: 45px;
 	}
+
+    .ei-slider{
+        max-width: 800px;
+    }
+
+    .carousel-products-outer{
+        font-size: 80%;
+    }
 }
 
 
@@ -130,19 +147,46 @@
 		font-size: 120%;
 	}
 
+    .mp-products-outer{
+        font-size: 60%;
+        text-align: center;
+    }
+
 	.pre-header-inner{
-		padding: 0 0 0 100px;
+		padding: 0 0 0 105px;
 		font-size: 140%;
 	}
 
-	.pre-header-box{
-		padding: 10px;
-		display: block;
-		border-right: 1px solid #ddd;
-		margin: 0;
-		color: #fff;
-		float: left;
-	}
+	.pre-header-box {
+        border-left: 1px solid #333333;
+        border-right: 1px solid #6C6161;
+        color: #FFFFFF;
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 10px;
+        position: relative;
+    }
+
+    .login-wrap:after{
+        content:"";
+        border-left: 1px solid #333;
+        height: 100%;
+        background: #9c0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .site-phone:before{
+        content:"";
+        border-right: 1px solid #6C6161;
+        height: 100%;
+        background: #9c0;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
 
 	.login-text, .ih-info-block, .cart-info span{
 		display: none;
@@ -177,15 +221,15 @@
     	width: 100%;
     	font-size: 120%;
     	padding-right: 0;
-    	  box-shadow: -7px 30px 17px -24px #000000;
-		  padding: 10px !important;
-		background: -moz-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* FF3.6+ */
-	background: -webkit-gradient(linear, 90deg, color-stop(0%, #ebebeb), color-stop(100%, #ffffff));/* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* Opera 11.10+ */
-	background: -ms-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* IE10+ */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#ffffff', GradientType='0'); /* for IE */
-	background: linear-gradient(0deg, #ebebeb 0%, #ffffff 100%);/* W3C */
+    	box-shadow: -7px 30px 17px -24px #000000;
+    	padding: 10px !important;
+    	background: -moz-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* FF3.6+ */
+    	background: -webkit-gradient(linear, 90deg, color-stop(0%, #ebebeb), color-stop(100%, #ffffff));/* Chrome,Safari4+ */
+    	background: -webkit-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* Chrome10+,Safari5.1+ */
+    	background: -o-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* Opera 11.10+ */
+    	background: -ms-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* IE10+ */
+    	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#ffffff', GradientType='0'); /* for IE */
+    	background: linear-gradient(0deg, #ebebeb 0%, #ffffff 100%);/* W3C */
     }
 
     .main-foot-title{
@@ -194,48 +238,48 @@
     }
 
     .main-foot-title{
-background: none repeat scroll 0 0 #F99222;
-    box-shadow: -2.8px 2.9px 1.7px -2.3px #333333;
-    color: #FFFFFF;
-    font-size: 13px;
-    height: 46px;
-    left: -16px;
-    padding: 16px 9px 0 15px;
-    position: relative;
-    text-transform: uppercase;
-    top: -16px;
-    vertical-align: middle;
-}
+        background: none repeat scroll 0 0 #F99222;
+        box-shadow: -2.8px 2.9px 1.7px -2.3px #333333;
+        color: #FFFFFF;
+        font-size: 13px;
+        height: 46px;
+        left: -16px;
+        padding: 16px 9px 0 15px;
+        position: relative;
+        text-transform: uppercase;
+        top: -16px;
+        vertical-align: middle;
+    }
 
-   .main-foot-nav-item {
-    background: none repeat scroll 0 0 #040404;
-    border-bottom: 1px solid #221B1B;
-    border-top: 1px solid #000000;
-    color: #CCCCCC;
-    font-size: 0.75em;
-    margin-bottom: 0;
-    padding: 7px;
-    text-align: center;
-    text-shadow: 0 0 2px #525252;
-    text-transform: capitalize;
+    .main-foot-nav-item {
+        background: none repeat scroll 0 0 #040404;
+        border-bottom: 1px solid #221B1B;
+        border-top: 1px solid #000000;
+        color: #CCCCCC;
+        font-size: 0.75em;
+        margin-bottom: 0;
+        padding: 7px;
+        text-align: center;
+        text-shadow: 0 0 2px #525252;
+        text-transform: capitalize;
 	}
 
 	.main-foot-nav-item:active{
-	background: -moz-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* FF3.6+ */
-	background: -webkit-gradient(linear, 90deg, color-stop(0%, #0a0a09), color-stop(100%, #090909));/* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* Opera 11.10+ */
-	background: -ms-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* IE10+ */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a0a09', endColorstr='#090909', GradientType='0'); /* for IE */
-	background: linear-gradient(0deg, #0a0a09 0%, #090909 100%);/* W3C */
+    	background: -moz-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* FF3.6+ */
+    	background: -webkit-gradient(linear, 90deg, color-stop(0%, #0a0a09), color-stop(100%, #090909));/* Chrome,Safari4+ */
+    	background: -webkit-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* Chrome10+,Safari5.1+ */
+    	background: -o-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* Opera 11.10+ */
+    	background: -ms-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* IE10+ */
+    	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a0a09', endColorstr='#090909', GradientType='0'); /* for IE */
+    	background: linear-gradient(0deg, #0a0a09 0%, #090909 100%);/* W3C */
 	}
 
 	.post-foot-block {
- 		border-bottom: 1px solid #DCDCDC;
- 		width: 100%;
- 		padding: 1em;
- 		text-align: center;
- 		font-size: 1em;
+    	border-bottom: 1px solid #DCDCDC;
+    	width: 100%;
+    	padding: 1em;
+    	text-align: center;
+    	font-size: 1em;
  	}
 
 
@@ -265,4 +309,33 @@ background: none repeat scroll 0 0 #F99222;
     	text-align: center;
     }
 
+    .slider-outer{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width:300px){
+
+    .mp-news-block-outer, .cat-news-block-outer {
+        font-size: 80%;
+    }
+
+
+
+    .cat-news-block-outer{
+        padding: 20px 6px;
+    }
+
+}
+
+@media screen and (max-width: 250px){
+    .gl-outer{
+        font-size: 80%;
+    }
+
+    .mp-products-outer{
+        font-size: 60%;
+    }
 }
