@@ -666,3 +666,16 @@ body{
 .mobile-nav-text-item{
 	z-index: 2;
 }
+
+
+.mobile-nav-open-active{
+	color: #ddd;
+}
+
+.mobile-active-open{
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
