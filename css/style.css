@@ -681,3 +681,7 @@ body{
 	-o-transform: rotate(0deg) !important;
 	transform: rotate(0deg) !important;
 }
+
+.mobile-nav-open-active:before{
+	color: #ddd;
+}
