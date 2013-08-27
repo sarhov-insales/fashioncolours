@@ -631,7 +631,7 @@ body{
 	height: 50px;
 	background: #000;
 	cursor: pointer;
-	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .mobile-nav:before {
@@ -640,7 +640,7 @@ body{
     font-size: 32px;
     padding: 8px 10px 0;
     position: absolute;
-    left: 0;
+    right: 0;
     z-index: 4;
 }
 
