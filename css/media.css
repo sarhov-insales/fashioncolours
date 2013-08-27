@@ -18,10 +18,7 @@
     	max-width: 900px;
     }
 
-    .header.gl-outer{
-    	font-size: 80%;
-    }
-
+    
     .cat-news-block-outer, .mp-products-outer, .mp-news-block-outer{
     	font-size: 90%;
     }
@@ -43,12 +40,54 @@
         font-size: 90%;
     }
 
+    .main-head{
+        padding-right: 20px;
+    }
+
     .top-menu-nav{
-        display: none;
+        display: block; /*temp*/
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 88;
+        width: 100%;
+    }
+
+    .top-menu-nav-items{
+        width: 100%;
     }
        
-     .mobile-nav{
+        .mobile-nav{
         display: block;
+        text-align: center;
+    }
+
+    .top-menu-nav-items a{
+        width: 90%;
+    }
+
+    .top-menu-nav-items:hover  .top-nav-menu-open{
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .top-nav-menu-item-open{
+        width: 10%;
+    }
+
+    .top-menu-nav  nav{
+        -webkit-transition: all 0;
+        -moz-transition: all 0;
+        -ms-transition: all 0;
+        -o-transition: all 0;
+        transition: all 0;
+        visibility: visible;
+        opacity: 1;
+        position: relative;
+        display: none;
     }
 }
 
