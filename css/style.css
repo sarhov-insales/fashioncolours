@@ -771,6 +771,7 @@ z-index: 2;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
 }
+/*version 1*/
 
 .property-opener{
 	height: 100%;
@@ -779,23 +780,67 @@ z-index: 2;
 	width: 50px;
 	display: none;
 	font-size: 25px;
-	padding: 0 12px;
 	color: #fff;
 	cursor: pointer;
 	background: #000;
+	font-family: icomico;
+	font-size: 45px;
+	padding-top: 5px;
+	text-align: center;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
 }
 
 
-.property-opener:before, .property-opener:after {
-    background: none repeat scroll 0 0 #ddd;
-    content: "";
-    height: 100%;
-    width: 2px;
-    display:inline-block;
-    margin: 0 5px;
+
+.property-opener:before{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top:50%;
+	left: 0px;
+	font-size: 55px;
+	margin-top: -25px;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-ms-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+	display: inline-block;
 }
 
+.property-opener:after{
+	content:"\e092";
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom:5px;
+	left: 0px;
+	font-size: 55px;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	display: inline-block;
+}
 
+.activator:before, .activator:after{
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+
+/*version1*/
 
 .main-content-sidebar-box{
 	margin-bottom: 2.14em;

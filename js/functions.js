@@ -13,6 +13,7 @@ jQuery(document).ready(function($) {
 	});;
 
 	$('.property-opener').click(function(){
+		$(this).toggleClass('activator');
 		$('.main-content-content').toggleClass('filter-opened');
 	});
 } 
