@@ -772,7 +772,7 @@ body{
 	display: block;
 }
 
-.main-content-sidebar a:hover{
+.property-item:hover, .property-item.active{
 	background: #efefef;
 	color: #000;
 }
@@ -828,6 +828,7 @@ body{
 	font-size: 0.75em;
 	color: #afafaf;
 	font-weight: normal;
+	margin: 20px 0;
 }
 
 .property-color{
@@ -882,7 +883,7 @@ body{
 	font-size: 0.88em;
 }
 
-.filter >select{
+.filter  select{
 	padding: 0.36em;
 	background: #e6e6e6;
 	border: none;
@@ -906,8 +907,14 @@ body{
 .category-grid-itself{
 	margin: 30px auto;
 	display: table;
-	width: 100%;
-	text-align: left;
+	text-align: center;
+}
+
+.category-grid-itself > .product-block{
+	display: inline-block;
+	width: 160px;
+	margin: 10px;
+	vertical-align: top;
 }
 
 .category-grid-itself .product-block-title{
