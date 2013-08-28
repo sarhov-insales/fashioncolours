@@ -750,7 +750,8 @@ body{
 	margin-top: -276px;
 	position: relative;
 	background: #fff;
-	padding-top: 1.69em; /*27/16*/
+	box-shadow: 0 51px 8px -55px #000000;
+	z-index: 2;
 }
 
 .main-content-sidebar{
@@ -778,7 +779,8 @@ body{
 
 .main-content-content{
 	width: 81.428571%;
-	padding: 20px;
+	padding: 30px 20px;
+	box-shadow: -141px -136px 15px -151px #000;
 }
 
 .main-content-sidebar-box-title{
@@ -913,7 +915,16 @@ body{
 }
 
 .category-description{
-	padding: 2.88em;
+	padding: 2.88em 0;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	margin: 30px 0;
+}
+
+.category-description p{
+	font-size: 0.75em;
+	color: #040404;
+	line-height: 1.5;
 }
 
 /*ITEM PAGE*/
