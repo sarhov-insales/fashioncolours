@@ -688,9 +688,6 @@ body{
 
 /*  CATEGORY PAGE   */
 
-.pre-content-outer{
-	height:400px ;
-}
 
 .breadcrumbs{
 	height: 50px;
@@ -874,12 +871,23 @@ body{
 }
 
 .category-grid-itself{
-	margin: 30px 0;
+	margin: 30px auto;
+	display: table;
+	width: 100%;
 	text-align: left;
 }
 
 .category-grid-itself .product-block-title{
 	margin-left: 0;
+}
+
+.main-content-item{
+	width: 100%;
+	-webkit-box-shadow: 0 0 3px #333;
+	-moz-box-shadow: 0 0 3px #333;
+	box-shadow: 0 0 3px #333;
+	padding:1.25em ;
+	margin-bottom: 70px;
 }
 
 
