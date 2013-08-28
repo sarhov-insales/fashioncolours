@@ -147,7 +147,6 @@
 
     .main-content-sidebar{
         margin-right: -18.5714%;
-       padding-left: 60px;
         width: 250px;
         margin-right:-250px;
         position: absolute;
@@ -156,8 +155,7 @@
 
     .main-content-content{
         width: 100%;
-        margin-left: 50px;
-        padding-right: 50px;
+        padding-left: 60px;
         -webkit-box-shadow:    none;
         -moz-box-shadow:   none ;
         box-shadow:   none ;
