@@ -864,11 +864,9 @@ z-index: 2;
 	height: 2em;
 	background: #ddd;
 	margin-bottom: 3px;
+	display: inline-block;
 }
 
-.property-color:first-child{
-	margin-left: 0;
-}
 
 .property-color:hover, .property-color.active{
 	border: 2px solid #060606;
