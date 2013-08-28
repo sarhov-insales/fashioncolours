@@ -5,18 +5,20 @@ body{
   font-size: 100%;
   font-family: 'Open Sans', sans-serif;
     color: #bbb;
+    overflow: hidden;
 }
 
 .gl-outer{
   width: 100%;
   position: relative;
+
 }
 
 .gl-inner{
   width: 100%;
   max-width:980px;
   padding: 0;
-  margin:0 auto;
+  margin:0 auto; 
 }
 
 .pre-header-outer{
@@ -582,6 +584,7 @@ body{
 	width: 100%;
 	padding: 3.13em;  /*50/16*/
 	background: #dcdcdc;
+	overflow: hidden;
 }
 
 .main-foot-block{
@@ -1000,8 +1003,5 @@ background: linear-gradient(91deg, #000000 0%, #464646 100%);/* W3C */
 	width: 100%;
 }
 
-.ovy{
-	overflow: hidden;
-}
 
 

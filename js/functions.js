@@ -14,7 +14,6 @@ jQuery(document).ready(function($) {
 
 	$('.property-opener').click(function(){
 		$('.main-content-content').toggleClass('filter-opened');
-		$('.gl-inner').toggleClass('ovy');
 	});
 } 
 });
