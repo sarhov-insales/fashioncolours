@@ -778,14 +778,24 @@ z-index: 2;
 	left:0;
 	width: 50px;
 	display: none;
-	background: -moz-linear-gradient(359deg, #000000 0%, #464646 100%);/* FF3.6+ */
-background: -webkit-gradient(linear, 359deg, color-stop(0%, #000000), color-stop(100%, #464646));/* Chrome,Safari4+ */
-background: -webkit-linear-gradient(359deg, #000000 0%, #464646 100%);/* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(359deg, #000000 0%, #464646 100%);/* Opera 11.10+ */
-background: -ms-linear-gradient(359deg, #000000 0%, #464646 100%);/* IE10+ */
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#464646', GradientType='1'); /* for IE */
-background: linear-gradient(91deg, #000000 0%, #464646 100%);/* W3C */
+	font-size: 25px;
+	padding: 0 12px;
+	color: #fff;
+	cursor: pointer;
+	background: #000;
 }
+
+
+.property-opener:before, .property-opener:after {
+    background: none repeat scroll 0 0 #ddd;
+    content: "";
+    height: 100%;
+    width: 2px;
+    display:inline-block;
+    margin: 0 5px;
+}
+
+
 
 .main-content-sidebar-box{
 	margin-bottom: 2.14em;
