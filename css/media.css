@@ -145,6 +145,8 @@
     border-top: 1px solid #9D9494;
 }*/
 
+
+/*version 1*/
     .main-content-sidebar{
         margin-right: -18.5714%;
         width: 250px;
@@ -170,6 +172,8 @@
     .property-opener{
         display: block;
     }
+
+    /*version 1*/
    
 }
 
@@ -488,8 +492,17 @@
         font-size: 80%;
     }
 
+    /*version 1*/
   
+    .filter-opened{
+        right: -220px;
+    }
 
+    .main-content-sidebar{
+        width: 220px;
+    }
+
+    /*version 1*/
 
 
     .cat-news-block-outer{
@@ -506,4 +519,17 @@
     .mp-products-outer{
         font-size: 60%;
     }
+
+    /*version1*/
+
+    .main-content-sidebar{
+        width: 180px;
+    }
+
+    .filter-opened{
+        right: -180px;
+    }
+
+    /*version 1*/
 }
+
