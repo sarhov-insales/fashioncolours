@@ -94,6 +94,7 @@ body{
 
 .main-head{
 	padding: 15px 0 0px 170px;
+	overflow: hidden;
 }
 
 .header{
