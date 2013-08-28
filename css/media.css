@@ -159,10 +159,12 @@
         -webkit-box-shadow:    none;
         -moz-box-shadow:   none ;
         box-shadow:   none ;
+        right: 0;
+        top: ;
     }
 
     .filter-opened{
-        margin-left: 250px;
+       right: -250px;
     }
 
     .property-opener{

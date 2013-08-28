@@ -94,7 +94,6 @@ body{
 
 .main-head{
 	padding: 15px 0 0px 170px;
-	overflow: hidden;
 }
 
 .header{
@@ -270,7 +269,7 @@ body{
 .top-menu-nav-sub-sub{
 	top: 0;
 	font-size: 80%;
-	left: 200%;
+	left: 140%;
 	width: 100%;
 	position: absolute;
 	opacity: 0;
@@ -999,6 +998,10 @@ background: linear-gradient(91deg, #000000 0%, #464646 100%);/* W3C */
 	height: 400px;  /*temp*/
 	background: #ccc;
 	width: 100%;
+}
+
+.ovy{
+	overflow: hidden;
 }
 
 
