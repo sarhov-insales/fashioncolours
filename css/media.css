@@ -32,7 +32,7 @@
     }
 
     .site-name{
-        padding-top: 124px;
+        padding-top: 120px;
     }	
 
     .cat-news-block-outer.gl-outer {
@@ -61,7 +61,7 @@
         display: block;
     }
 
-    .top-menu-nav-items {
+    .top-menu-nav-items, .menu-sale {
         border-bottom: 1px solid #141313;
         border-top: 1px solid #000000;
         width: 100%;
@@ -165,7 +165,7 @@
 	}
 
 	.site-name{
-		padding-top: 114px;
+		padding-top: 110px;
 	}
 
     .ei-slider{
@@ -191,7 +191,7 @@
 
 
     .site-name{
-    	padding-top: 136px;
+    	padding-top: 133px;
     }
 
     .site-name-url{
@@ -213,6 +213,15 @@
 	.mp-news-block-outer, .cat-news-block-outer{
 		font-size: 120%;
 	}
+
+    .login-open:before, .cart-info:before{
+        display: block;
+    }
+
+    .login-open, .cart-info{
+        background:none;
+        padding: 0;
+    }
 
     .mp-products-outer{
         font-size: 60%;
@@ -264,7 +273,7 @@
     }
 
 	.site-name{
-		padding-top: 43px;
+		padding-top: 38px;
 	}
 
 	
