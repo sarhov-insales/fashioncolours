@@ -1,0 +1,138 @@
+
+/*version 1*/
+
+.property-opener{
+	height: 100%;
+	top: 0;
+	left:0;
+	width: 50px;
+	display: none;
+	font-size: 25px;
+	color: #fff;
+	cursor: pointer;
+	background: #000;
+	font-family: icomico;
+	font-size: 45px;
+	padding-top: 5px;
+	text-align: center;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+background: #fff url('http://i.imgur.com/8p3hOtQ.png') 0 0 repeat;
+}
+
+
+
+.property-opener:before{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top:50%;
+	left: 0px;
+	font-size: 55px;
+	margin-top: -25px;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-ms-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+	display: inline-block;
+}
+
+.property-opener:after{
+	content:"\e092";
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom:5px;
+	left: 0px;
+	font-size: 55px;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	display: inline-block;
+}
+
+.activator:before, .activator:after{
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+	color: #ccc;
+}
+
+/*version1*/
+
+
+
+
+@media screen and (max-width:1000px) {
+
+/*version 1*/
+    .main-content-sidebar{
+        margin-right: -18.5714%;
+        width: 250px;
+        margin-right:-250px;
+        position: absolute;
+        height: 100%;
+    }
+
+    .main-content-content{
+        width: 100%;
+        padding-left: 60px;
+        -webkit-box-shadow:    none;
+        -moz-box-shadow:   none ;
+        box-shadow:   none ;
+        right: 0;
+        top: ;
+    }
+
+    .filter-opened{
+       right: -250px;
+    }
+
+    .property-opener{
+        display: block;
+    }
+
+    /*version 1*/
+	
+}
+
+
+
+@media screen and (max-width:300px){
+
+
+    /*version 1*/
+  
+    .filter-opened{
+        right: -220px;
+    }
+
+    .main-content-sidebar{
+        width: 220px;
+    }
+
+    /*version 1*/
+
+
+}
+
+@media screen and (max-width: 250px){
+
+
+    /*version1*/
+
+    .main-content-sidebar{
+        width: 180px;
+    }
+
+    .filter-opened{
+        right: -180px;
+    }
+
+    /*version 1*/
+}

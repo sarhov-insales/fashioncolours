@@ -1,0 +1,33 @@
+@media screen and (max-width: 1000px){
+
+ .sidebar {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-content-sidebar-box{
+        display: inline-block;
+        text-align: left;
+        width: 40%;
+        vertical-align: top;
+        margin: 15px;
+    }
+
+    .main-content-content{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .main-content-sidebar-box{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .main-content-sidebar-box{
+        font-size: 90%;
+    }
+}

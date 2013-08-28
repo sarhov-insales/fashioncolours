@@ -1,39 +1,39 @@
 
 @media screen and (max-width:1000px) {
     .ih-info-block{
-    	float: none;
-    	width: 100%;
+        float: none;
+        width: 100%;
     }
 
     .search-wrap{
-    	float: left;
-    	width: 100%;
+        float: left;
+        width: 100%;
     }
 
     .sw-input-wrap{
-    	width: 100%;
+        width: 100%;
     }
 
     .gl-inner{
-    	max-width: 900px;
+        max-width: 900px;
     }
 
     
     .cat-news-block-outer, .mp-products-outer, .mp-news-block-outer{
-    	font-size: 90%;
+        font-size: 90%;
     }
 
     .deals-wrap{
-    	width: 70%;
+        width: 70%;
     }
 
     .social-btns{
-    	width: 25%;
+        width: 25%;
     }
 
     .site-name{
         padding-top: 120px;
-    }	
+    }   
 
     .cat-news-block-outer.gl-outer {
     padding: 20px;
@@ -119,110 +119,68 @@
         width: auto;
     }
 
-    /*.sidebar {
-        float: none;
-        width: 100%;
-        text-align: center;
-    }
-
     .main-content-sidebar-box{
-        display: inline-block;
-        text-align: left;
-        width: 30%;
-        vertical-align: top;
-        margin: 15px;
-        font-size: 130%;
+         font-size: 135%;
     }
 
-    .main-content-content{
-        float: none;
-        width: 100%;
-    }
 
     .property-item {
     background: none repeat scroll 0 0 #F5E9E9;
-    border-bottom: 1px solid #EDE2E2;
-    border-top: 1px solid #9D9494;
-}*/
-
-
-/*version 1*/
-    .main-content-sidebar{
-        margin-right: -18.5714%;
-        width: 250px;
-        margin-right:-250px;
-        position: absolute;
-        height: 100%;
+    border-bottom: 1px solid #FDF0F0;
+    border-top: 1px solid #DDDCDC;
     }
 
-    .main-content-content{
-        width: 100%;
-        padding-left: 60px;
-        -webkit-box-shadow:    none;
-        -moz-box-shadow:   none ;
-        box-shadow:   none ;
-        right: 0;
-        top: ;
-    }
 
-    .filter-opened{
-       right: -250px;
-    }
 
-    .property-opener{
-        display: block;
-    }
-
-    /*version 1*/
    
 }
 
 
 @media screen and (max-width:800px) {
 
-	.header.gl-outer{
-		font-size: 100%;
-	}
+    .header.gl-outer{
+        font-size: 100%;
+    }
 
-	
+    
 
 
-	.deals-wrap{
-		width: 100%;
-	}
+    .deals-wrap{
+        width: 100%;
+    }
 
-	.social-btns{
-		width: 100%;
-		padding-bottom: 20px;
-		border-bottom: 1px solid #ddd;
-		margin-bottom: 20px;
-	}
+    .social-btns{
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
 
-	.main-foot-block{
-		width: 50%;
-		padding-left: 0;
-		font-size: 110%;
-		padding-right: 1.25em;
-	}
+    .main-foot-block{
+        width: 50%;
+        padding-left: 0;
+        font-size: 110%;
+        padding-right: 1.25em;
+    }
 
-	.main-foot-title{
-		padding-bottom: 1.25em;
-		margin-bottom: 1.25em;
-		border-bottom: 1px solid #ccc;
-	}
+    .main-foot-title{
+        padding-bottom: 1.25em;
+        margin-bottom: 1.25em;
+        border-bottom: 1px solid #ccc;
+    }
 
 
    
 }
 
 @media screen and (max-width:700px){
-	.ih-info-block{
-		font-size: 80%;
-	}
+    .ih-info-block{
+        font-size: 80%;
+    }
 
-	.site-name{
-		padding-top: 110px;
-	}
+    .site-name{
+        padding-top: 110px;
+    }
 
     .ei-slider{
         max-width: 800px;
@@ -236,39 +194,39 @@
 
 @media screen and (max-width:600px) {
     .deals-wrap, .mp-products-outer, .cat-news-block-outer, .mp-news-block-outer{
-    	font-size: 80%;
+        font-size: 80%;
     }
 
     .main-head{
-    	padding-left: 110px;
+        padding-left: 110px;
         padding-right: 10px;
     }
 
 
 
     .site-name{
-    	padding-top: 133px;
+        padding-top: 133px;
     }
 
     .site-name-url{
-    	padding: 0 10px;
+        padding: 0 10px;
     }
 
     .ih-info-block{
-    	font-size: 70%;
+        font-size: 70%;
     }
 
     .site-name{
-    	width: 100px;
+        width: 100px;
     }
 }
 
 
 @media screen and (max-width:500px) {
 
-	.mp-news-block-outer, .cat-news-block-outer{
-		font-size: 120%;
-	}
+    .mp-news-block-outer, .cat-news-block-outer{
+        font-size: 120%;
+    }
 
     .login-open:before, .cart-info:before{
         display: block;
@@ -284,12 +242,12 @@
         text-align: center;
     }
 
-	.pre-header-inner{
-		padding: 0 0 0 105px;
-		font-size: 140%;
-	}
+    .pre-header-inner{
+        padding: 0 0 0 105px;
+        font-size: 140%;
+    }
 
-	.pre-header-box {
+    .pre-header-box {
         border-left: 1px solid #333333;
         border-right: 1px solid #6C6161;
         color: #FFFFFF;
@@ -320,57 +278,57 @@
         top: 0;
     }
 
-	.login-text, .ih-info-block, .cart-info span{
-		display: none;
-	}
+    .login-text, .ih-info-block, .cart-info span{
+        display: none;
+    }
 
     .search-wrap{
         display: none;
     }
 
-	.site-name{
-		padding-top: 38px;
-	}
+    .site-name{
+        padding-top: 38px;
+    }
 
-	
-	.mp-news-block-itself, .cat-news-block-itself {
-		width: 100%;
-		margin: 0;
-	}
+    
+    .mp-news-block-itself, .cat-news-block-itself {
+        width: 100%;
+        margin: 0;
+    }
 
     .deals-wrap {
-    	font-size: 90%;
+        font-size: 90%;
     }
 
     .subscribe {
-    	margin-bottom: 10px;
-    	margin-top: 10px;
-    	width: 100%;
-    	text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
     }
 
     .main-foot-outer{
-    	padding: 1em;
+        padding: 1em;
     }
 
     .main-foot-block{
-    	width: 100%;
-    	font-size: 120%;
-    	padding-right: 0;
-    	box-shadow: -7px 30px 17px -24px #000000;
-    	padding: 10px !important;
-    	background: -moz-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* FF3.6+ */
-    	background: -webkit-gradient(linear, 90deg, color-stop(0%, #ebebeb), color-stop(100%, #ffffff));/* Chrome,Safari4+ */
-    	background: -webkit-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* Chrome10+,Safari5.1+ */
-    	background: -o-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* Opera 11.10+ */
-    	background: -ms-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* IE10+ */
-    	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#ffffff', GradientType='0'); /* for IE */
-    	background: linear-gradient(0deg, #ebebeb 0%, #ffffff 100%);/* W3C */
+        width: 100%;
+        font-size: 120%;
+        padding-right: 0;
+        box-shadow: -7px 30px 17px -24px #000000;
+        padding: 10px !important;
+        background: -moz-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* FF3.6+ */
+        background: -webkit-gradient(linear, 90deg, color-stop(0%, #ebebeb), color-stop(100%, #ffffff));/* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* Opera 11.10+ */
+        background: -ms-linear-gradient(90deg, #ebebeb 0%, #ffffff 100%);/* IE10+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#ffffff', GradientType='0'); /* for IE */
+        background: linear-gradient(0deg, #ebebeb 0%, #ffffff 100%);/* W3C */
     }
 
     .main-foot-title{
-    	padding-bottom: 10px;
-    	margin-bottom: 0px;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
     }
 
     .main-foot-title{
@@ -398,25 +356,25 @@
         text-align: center;
         text-shadow: 0 0 2px #525252;
         text-transform: capitalize;
-	}
+    }
 
-	.main-foot-nav-item:active{
-    	background: -moz-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* FF3.6+ */
-    	background: -webkit-gradient(linear, 90deg, color-stop(0%, #0a0a09), color-stop(100%, #090909));/* Chrome,Safari4+ */
-    	background: -webkit-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* Chrome10+,Safari5.1+ */
-    	background: -o-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* Opera 11.10+ */
-    	background: -ms-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* IE10+ */
-    	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a0a09', endColorstr='#090909', GradientType='0'); /* for IE */
-    	background: linear-gradient(0deg, #0a0a09 0%, #090909 100%);/* W3C */
-	}
+    .main-foot-nav-item:active{
+        background: -moz-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* FF3.6+ */
+        background: -webkit-gradient(linear, 90deg, color-stop(0%, #0a0a09), color-stop(100%, #090909));/* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* Opera 11.10+ */
+        background: -ms-linear-gradient(90deg, #0a0a09 0%, #090909 100%);/* IE10+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a0a09', endColorstr='#090909', GradientType='0'); /* for IE */
+        background: linear-gradient(0deg, #0a0a09 0%, #090909 100%);/* W3C */
+    }
 
-	.post-foot-block {
-    	border-bottom: 1px solid #DCDCDC;
-    	width: 100%;
-    	padding: 1em;
-    	text-align: center;
-    	font-size: 1em;
- 	}
+    .post-foot-block {
+        border-bottom: 1px solid #DCDCDC;
+        width: 100%;
+        padding: 1em;
+        text-align: center;
+        font-size: 1em;
+    }
 
 
 }
@@ -424,25 +382,25 @@
 
 @media screen and (max-width:400px) {
     .subscribe {
-    	margin: 0;
+        margin: 0;
     }
 
     .deals-wrap p{
-    	width: 100%;
-    	font-size: 1em;
+        width: 100%;
+        font-size: 1em;
     }
 
     .site-phone-text{
-    	display: none;
+        display: none;
     }
 
     .site-phone-itself{
-    	color: #fff;
+        color: #fff;
     }
 
     .pre-header-box{
-    	width: 33%;
-    	text-align: center;
+        width: 33%;
+        text-align: center;
     }
 
     .slider-outer{
@@ -492,17 +450,7 @@
         font-size: 80%;
     }
 
-    /*version 1*/
-  
-    .filter-opened{
-        right: -220px;
-    }
 
-    .main-content-sidebar{
-        width: 220px;
-    }
-
-    /*version 1*/
 
 
     .cat-news-block-outer{
@@ -520,16 +468,6 @@
         font-size: 60%;
     }
 
-    /*version1*/
 
-    .main-content-sidebar{
-        width: 180px;
-    }
-
-    .filter-opened{
-        right: -180px;
-    }
-
-    /*version 1*/
 }
 
