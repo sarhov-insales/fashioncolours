@@ -71,13 +71,20 @@ background: #fff url('http://i.imgur.com/8p3hOtQ.png') 0 0 repeat;
 @media screen and (max-width:1000px) {
 
 /*version 1*/
+
     .main-content-sidebar{
-        margin-right: -18.5714%;
         width: 250px;
         margin-right:-250px;
         position: absolute;
         height: 100%;
+        padding: 0;
     }
+
+    .main-content-sidebar-box-title{
+    	padding: 0.5em 0.4em;
+    	font-size: 110%;
+    }
+
 
     .main-content-content{
         width: 100%;
@@ -95,6 +102,10 @@ background: #fff url('http://i.imgur.com/8p3hOtQ.png') 0 0 repeat;
 
     .property-opener{
         display: block;
+    }
+
+    .main-content-sidebar-box{
+    	font-size: 120%;
     }
 
     /*version 1*/

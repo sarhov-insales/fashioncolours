@@ -735,6 +735,7 @@ body{
 	background: #fff;
 	float: left;
 	margin-right: 0.29em;
+	margin-bottom: 0.29em;
 }
 
 .breadcrumbs a:hover{
@@ -932,7 +933,6 @@ z-index: 2;
 
 .category-grid-itself{
 	margin: 30px auto;
-	display: table;
 	text-align: center;
 }
 
