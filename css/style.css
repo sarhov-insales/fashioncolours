@@ -775,6 +775,7 @@ z-index: 2;
 	left:0;
 	width: 50px;
 	background: #9c0;
+	display: none;
 }
 
 .main-content-sidebar-box{
