@@ -11,5 +11,9 @@ jQuery(document).ready(function($) {
 	$('.top-nav-menu-open').click(function() {
 		$(this).toggleClass('mobile-active-open').next('nav').slideToggle();
 	});;
+
+	$('.property-opener').click(function(){
+		$('.main-content-content').toggleClass('filter-opened');
+	});
 } 
 });
