@@ -775,8 +775,14 @@ z-index: 2;
 	top: 0;
 	left:0;
 	width: 50px;
-	background: #9c0;
 	display: none;
+	background: -moz-linear-gradient(359deg, #000000 0%, #464646 100%);/* FF3.6+ */
+background: -webkit-gradient(linear, 359deg, color-stop(0%, #000000), color-stop(100%, #464646));/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(359deg, #000000 0%, #464646 100%);/* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(359deg, #000000 0%, #464646 100%);/* Opera 11.10+ */
+background: -ms-linear-gradient(359deg, #000000 0%, #464646 100%);/* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#464646', GradientType='1'); /* for IE */
+background: linear-gradient(91deg, #000000 0%, #464646 100%);/* W3C */
 }
 
 .main-content-sidebar-box{
