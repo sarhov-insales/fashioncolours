@@ -690,7 +690,6 @@ body{
 
 .pre-content-outer{
 	height:400px ;
-	background: #9c0;
 }
 
 .breadcrumbs{
@@ -722,18 +721,165 @@ body{
 .main-content{
 	margin-top: -276px;
 	position: relative;
-	height: 800px;  /*temp*/
 	background: #fff;
+	padding-top: 1.69em; /*27/16*/
 }
 
 .main-content-sidebar{
 	width: 18.571429%;
-	background: #333;
-	height:300px ;
+	padding: 1.43em 1.29em;
+	font-size: 14px;
+	color: #4b4b4b;
+	text-transform: capitalize;
+}
+
+.main-content-sidebar-box{
+	margin-bottom: 2.14em;
+}
+
+.main-content-sidebar a{
+	color: #4b4b4b;
+	padding: 0.36em;
+	display: block;
+}
+
+.main-content-sidebar a:hover{
+	background: #efefef;
+	color: #000;
 }
 
 .main-content-content{
 	width: 81.428571%;
-	background: #9c0;
-	height: 300px;
+	padding: 20px;
 }
+
+.main-content-sidebar-box-title{
+	padding: 0.5em 0;
+	margin-bottom: 1.57em;
+	border-bottom: 1px solid #343434;
+}
+
+.range-slider{
+	margin-bottom: 10px;
+}
+
+.ui-slider .ui-slider-handle{
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	width: 10px;
+	height:10px;
+	background: #343434;
+	border: none;
+}
+
+
+
+.ui-slider .ui-slider-handle:hover{
+	background: #5E5B5B;
+}
+
+.ui-slider .ui-slider-range{
+	background: #f99222;
+}
+
+.ui-widget-content{
+	background: #afafaf;
+}
+
+.ui-slider-horizontal{
+	height:3px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.price-range{
+	font-size: 0.75em;
+	color: #afafaf;
+	font-weight: normal;
+}
+
+.property-color{
+	margin-left: 2px;
+	width: 27px;
+	height: 27px;
+	background: #ddd;
+	margin-bottom: 3px;
+}
+
+.property-color:first-child{
+	margin-left: 0;
+}
+
+.property-color:hover, .property-color.active{
+	border: 2px solid #060606;
+}
+
+.property-grey{
+	background: grey;
+}
+
+.property-blue{
+	background: blue;
+}
+
+.property-orange{
+	background: orange;
+}
+
+.property-YellowGreen  {
+	background: YellowGreen  ;
+}
+
+.property-yellow{
+	background: yellow;
+}
+
+
+.property-red{
+	background: red;
+}
+
+/*main-content-content*/
+
+.category-grid-header{
+	padding: 10px 0;
+}
+
+.filter{
+	color: #4b4b4b;
+	font-size: 0.88em;
+}
+
+.filter >select{
+	padding: 0.36em;
+	background: #e6e6e6;
+	border: none;
+}
+
+.pagination a, .pagination span{
+	display: inline-block;
+	padding:7px 11px;
+}
+
+.pagination span{
+	background: #e6e6e6;
+	color: #040404;
+}
+
+.pagination a:hover{
+	background: #e6e6ee;
+	color: #040404;
+}
+
+.category-grid-itself{
+	margin: 30px 0;
+	text-align: left;
+}
+
+.category-grid-itself .product-block-title{
+	margin-left: 0;
+}
+
+
